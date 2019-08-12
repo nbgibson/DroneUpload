@@ -1,0 +1,6 @@
+TODO: Rework renaming code to intake file creation date to use for sorting and renaming
+    Rationale: Current code is only good if used on a per postflight basis and only if executed the day of. If files are present from multiple days of flying, all will be grouped and classified for the day of the script running.
+TODO: Integrate scp portion into python script or move everything to bash
+    Rationale: KISS
+TODO: Remove the rm -r * purge in the bash portion
+    Rationale: Accident waiting to happen. 
